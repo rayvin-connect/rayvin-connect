@@ -18,7 +18,7 @@ export class RayvinClient {
   private readonly endpoint: string
 
   constructor (private readonly apiKey: string, options?: Options) {
-    this.endpoint = options?.endpoint ?? 'https://api.prod.i01.rayvin.io/connect/v1/';
+    this.endpoint = options?.endpoint ?? 'https://api.prod.rayvin.io/connect/v1/';
   }
 
   getInstance () {
