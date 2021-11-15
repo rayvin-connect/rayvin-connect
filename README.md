@@ -31,9 +31,8 @@ npm install @rayvin-connect/rayvin-connect
 You can find the following code in the [basic-feed example](src/examples/basic-feed.ts):
 
 ```typescript
-import { momentUrl, niceVisualName } from '../lib/helpers/top-shot-helpers'
-import { RayvinFeed } from '../lib/feed/rayvin-feed'
-import { RayvinClient } from '../lib/api/rayvin-client'
+import { momentUrl, niceVisualName } from '@rayvin-connect/rayvin-connect/lib/lib/helpers/top-shot-helpers'
+import { RayvinClient, RayvinFeed } from '@rayvin-connect/rayvin-connect'
 
 // this example connects to Rayvin's real-time marketplace feed and outputs all new listings to the console
 
