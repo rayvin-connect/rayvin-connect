@@ -6,6 +6,8 @@ Once your custom logic determines that you are interested in a moment, you can l
 
 This repository contains a JavaScript library that implements the interface of Rayvin Connect, but you can consume the API in whatever language/environment that you'd like. Check out the [API Reference](docs/api-reference.md) for details about the available endpoints.
 
+Take a look at [ravyin-connect-dashboard](https://github.com/rayvin-connect/rayvin-connect-dashboard) to see a basic implementation of a custom React web application built using Rayvin Connect. 
+
 ---
 
 ### Beta
