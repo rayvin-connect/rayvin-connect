@@ -1,5 +1,5 @@
 {
-  "name": "rayvin-connect",
+  "name": "@rayvin-connect/rayvin-connect",
   "version": "1.0.0",
   "description": "Connect to the Rayvin data feed and API",
   "main": "lib/index.js",
@@ -7,6 +7,10 @@
   "scripts": {
     "prepublish": "tsc",
     "build": "rimraf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayvin-connect/rayvin-connect"
   },
   "author": "https://github.com/rayvin-connect",
   "license": "Apache-2.0",
