@@ -109,6 +109,9 @@ If you are starting a project from scratch, first create an empty folder (for th
 npm init
 # you can fill in whatever values you want for your project
 
+# add the rayvin-connect module
+npm install @rayvin-connect/rayvin-connect
+
 # add typescript
 npm install -D typescript ts-node
 ```
